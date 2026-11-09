@@ -1,0 +1,5 @@
+torch>=2.3
+transformers>=4.44
+datasets>=2.20
+heretic-llm==2.1.0
+lm_eval==0.4.13

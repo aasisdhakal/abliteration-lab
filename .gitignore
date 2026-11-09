@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+bench/
+checkpoints/
+abliterated-model/
+*-heretic*/
+*.log
+*.safetensors
+*.pt
+.env

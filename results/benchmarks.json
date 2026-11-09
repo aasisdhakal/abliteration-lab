@@ -1,0 +1,128 @@
+{
+  "lm_eval_version": "0.4.13",
+  "transformers_version": "5.22.2",
+  "dtype": "bfloat16",
+  "notes": "gsm8k: 5-shot, first 250 test questions; others: full test sets, 0-shot",
+  "models": {
+    "original": {
+      "refusals_out_of_100": 99,
+      "kl_divergence": 0.0,
+      "scores": {
+        "mmlu/acc": {
+          "value": 0.6016,
+          "stderr": 0.0039
+        },
+        "arc_challenge/acc_norm": {
+          "value": 0.4642,
+          "stderr": 0.0146
+        },
+        "hellaswag/acc_norm": {
+          "value": 0.6827,
+          "stderr": 0.0046
+        },
+        "winogrande/acc": {
+          "value": 0.6251,
+          "stderr": 0.0136
+        },
+        "piqa/acc_norm": {
+          "value": 0.759,
+          "stderr": 0.01
+        },
+        "gsm8k/exact_match/flexible-extract": {
+          "value": 0.508,
+          "stderr": 0.0317
+        },
+        "gsm8k/exact_match/strict-match": {
+          "value": 0.276,
+          "stderr": 0.0283
+        }
+      }
+    },
+    "heretic-ara (published)": {
+      "refusals_out_of_100": 7,
+      "kl_divergence": 0.0142,
+      "scores": {
+        "mmlu/acc": {
+          "value": 0.5961,
+          "stderr": 0.0039
+        },
+        "gsm8k/exact_match/flexible-extract": {
+          "value": 0.484,
+          "stderr": 0.0317
+        },
+        "gsm8k/exact_match/strict-match": {
+          "value": 0.304,
+          "stderr": 0.0292
+        }
+      }
+    },
+    "alternative-a": {
+      "refusals_out_of_100": 6,
+      "kl_divergence": 0.0386,
+      "scores": {
+        "mmlu/acc": {
+          "value": 0.588,
+          "stderr": 0.0039
+        },
+        "arc_challenge/acc_norm": {
+          "value": 0.4625,
+          "stderr": 0.0146
+        },
+        "hellaswag/acc_norm": {
+          "value": 0.6724,
+          "stderr": 0.0047
+        },
+        "winogrande/acc": {
+          "value": 0.6267,
+          "stderr": 0.0136
+        },
+        "piqa/acc_norm": {
+          "value": 0.7573,
+          "stderr": 0.01
+        },
+        "gsm8k/exact_match/flexible-extract": {
+          "value": 0.428,
+          "stderr": 0.0314
+        },
+        "gsm8k/exact_match/strict-match": {
+          "value": 0.172,
+          "stderr": 0.0239
+        }
+      }
+    },
+    "alternative-b": {
+      "refusals_out_of_100": 0,
+      "kl_divergence": 1.4766,
+      "scores": {
+        "mmlu/acc": {
+          "value": 0.5499,
+          "stderr": 0.004
+        },
+        "arc_challenge/acc_norm": {
+          "value": 0.343,
+          "stderr": 0.0139
+        },
+        "hellaswag/acc_norm": {
+          "value": 0.5636,
+          "stderr": 0.0049
+        },
+        "winogrande/acc": {
+          "value": 0.5912,
+          "stderr": 0.0138
+        },
+        "piqa/acc_norm": {
+          "value": 0.6953,
+          "stderr": 0.0107
+        },
+        "gsm8k/exact_match/flexible-extract": {
+          "value": 0.052,
+          "stderr": 0.0141
+        },
+        "gsm8k/exact_match/strict-match": {
+          "value": 0.0,
+          "stderr": 0.0
+        }
+      }
+    }
+  }
+}
